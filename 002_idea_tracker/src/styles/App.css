@@ -1,0 +1,87 @@
+/* Base Application Styles */
+body {
+  background-color: #F5F5F5;
+}
+
+button {
+  border: 0;
+  background: 0;
+}
+
+button:hover {
+  opacity: .5;
+  cursor: pointer;
+}
+
+.rc-Main {
+  width: 800px;
+  margin: 0 auto;
+  border: 1px solid #DFDFDF;
+  background: #FFF;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.rc-SecondaryLayout .actions {
+  float: right;
+  margin: 0 18px;
+  font-size: 24px;
+}
+
+.rc-SecondaryLayout .title {
+  text-align: center;
+  font-size: 24px;
+  font-family: helvetica, arial, sans-serif;
+  font-weight: lighter;
+  color: #888;
+  margin: 18px 0 18px 0;
+}
+
+.rc-InputPage .main-contents {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 32px;
+  padding: 18px;
+}
+
+.rc-InputPage .main-idea-input {
+  width: 100%;
+  border: 1px solid #EEE;
+  padding: 12px 0 12px 8px;
+  font-size: 16px;
+}
+
+.rc-InputPage .main-footer {
+  text-align: center;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 0 0 32px 0;
+}
+
+.rc-ListItem {
+  border-top: 1px solid #EEE;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.rc-ListItem .item {
+  padding: 18px;
+  flex-grow: 1;
+}
+
+.rc-ListItem .actions {
+  padding-top: 12px;
+}
+
+.rc-ListItem.archived-idea {
+  background: #FAFAFA;
+  color: #BBB;
+}
+
+.rc-NewPageContents .clear {
+  clear: both;
+}
+
+.rc-FavouritesPageContents .clear {
+  clear: both;
+}
